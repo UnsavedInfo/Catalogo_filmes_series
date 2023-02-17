@@ -1,7 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Catálogo de Filmes e Séries</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Qual é o seu filme favorito?
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Catálogo de Filmes e Séries
+    </h1>
+    <img src="https://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png" class="page-logo" alt="">
+    <p class="page-subtitle">
+      Qual é sua série ou filme favorito?
+    </p>
+    <div class="form-wrapper">
+      <input type="text" id="nome" name="filme" placeholder="Insira o nome do filme">
+      <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+      <input type="text" id="trailer" name="filme" placeholder="Insira o trailer do filme">
+      <br>
+      <button onClick="adicionarFilme()">Adicionar Filme</button>
+    </div>
+  </div>
+  <div id="listaFilmes"></div>
+  <a href="https://www.linkedin.com/in/pedro-silva-37004021a/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/800px-LinkedIn_icon.svg.png" alt="" class="linkedin">
+  </a>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
 </body>
 </html>
