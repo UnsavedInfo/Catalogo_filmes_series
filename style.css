@@ -38,6 +38,7 @@ body {
   margin: 10px;
   height: 250px;
   width: 180px;
+  border-radius: 3px;
 }
 
 #listaFilmes img:hover{
