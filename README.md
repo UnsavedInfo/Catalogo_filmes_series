@@ -1,3 +1,3 @@
-# UnsavedInfo.github.io
+# Catálogo de filmes e séries
 
-My site
+Linguagens usadas: CSS, HTML e JavaScript
